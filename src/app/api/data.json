@@ -1,0 +1,360 @@
+{
+  "data": {
+    "title": "Avinash Gowda",
+    "updatedOn": "6th June 2023",
+    "designation": "Software Engineer",
+    "summary": [
+      "Full stack software engineer with more than 4 years of experience in building web applications, APIs, etc.",
+      "Worked on more than 5+ projects to completion.",
+      "Good analytical and problem-solving abilities.",
+      "Independent on programming languages, frameworks or platforms."
+    ],
+    "personaDetails": {
+      "fullName": "Avinash Nagraj Gowda",
+      "gender": "Male",
+      "dob": "17-01-1994",
+      "nationality": "Indian",
+      "maritalStatus": "Single",
+      "contact": {
+        "mobile": ["+919969314138"],
+        "email": "avinashgowda.1994@gmail.com",
+        "address": ["Nalasopara East", "Mumbai - 401209"]
+      }
+    },
+    "competencies": {
+      "softwareDevelopment": {
+        "label": "Software Development",
+        "data": {
+          "languages": {
+            "label": "Languages",
+            "data": [
+              "JAVA",
+              "C",
+              "C++",
+              "C#",
+              "PHP",
+              "JavaScript",
+              "HTML",
+              "CSS",
+              "XML",
+              "JSON"
+            ]
+          },
+          "frameworks": {
+            "label": "Frameworks",
+            "data": [
+              "Dot NET",
+              "Node.js",
+              "React",
+              "Laravel",
+              "Zend",
+              "Magento",
+              "WordPress",
+              "jQuery",
+              "Vue.js"
+            ]
+          },
+          "tools": {
+            "label": "Tools",
+            "data": ["Postman", "Nginx", "Varnish", "Eclipse", "WSL"]
+          }
+        }
+      },
+      "database": {
+        "label": "Database",
+        "data": {
+          "languages": {
+            "label": "Languages",
+            "data": ["SQL"]
+          },
+          "tools": {
+            "label": "Tools",
+            "data": ["MySQL", "Oracle"]
+          }
+        }
+      },
+      "concepts": {
+        "label": "Concepts",
+        "data": [
+          "RDBMS",
+          "MVC",
+          "MVVM",
+          "REST",
+          "SOAP",
+          "GraphQL",
+          "Microservices"
+        ]
+      },
+      "tools": {
+        "label": "Other Tools",
+        "data": {
+          "versioning": {
+            "label": "Version Control",
+            "data": ["Git"]
+          },
+          "os": {
+            "label": "Operating Systems",
+            "data": ["linux", "windows", "mac", "etc"]
+          },
+          "graphics": {
+            "label": "Graphic Design S/W",
+            "data": ["UML", "Adobe Photoshop", "Flash"]
+          }
+        }
+      },
+      "communications": {
+        "label": "Communications",
+        "data": "Excellent written and verbal communication skills."
+      },
+      "languages": {
+        "label": "Spoken Languages",
+        "data": "English, Hindi, Marathi"
+      }
+    },
+    "qualifications": {
+      "academics": {
+        "marksheets": {
+          "bachelors": {
+            "title": "BE-Information technology",
+            "score": "5.97 CGPI",
+            "board": "Mumbai University",
+            "passingYear": "May 2017"
+          },
+          "hsc": {
+            "title": "HSC",
+            "score": "79.83%",
+            "board": "Maharashtra Board",
+            "passingYear": "March 2012"
+          },
+          "ssc": {
+            "title": "SSC",
+            "score": "83.09%",
+            "board": "Maharashtra Board",
+            "passingYear": "March 2010"
+          }
+        },
+        "major_minor": [
+          {
+            "label": "Major",
+            "data": "Programming using languages such as C, C++ and C #, Java, Python and PHP for developing software/application/backend services."
+          },
+          {
+            "label": "Minor",
+            "data": "IoT, Database management, Cloud Computing, Automation."
+          }
+        ]
+      },
+      "postAcademics": {
+        "label": "Internship / Training",
+        "data": [
+          {
+            "title": "Internship at DIT And STC POWAI, Union bank of India",
+            "description": "Internship was for 3 months. We created mobile application and backend service at DIT And STC POWAI, Union Bank of India."
+          },
+          {
+            "title": "Training Certification Prognoz Technical Competency Program: .NET Technology (C#)",
+            "description": "Course duration was 2 months. Passing required creating and submitting a Windows desktop Software as mini project."
+          },
+          {
+            "title": "Full stack web development at Ambab Infotech Pvt Ltd. as software trainee.",
+            "description": "Two months training included learning and assignments of object-oriented PHP (PHP OOP), JavaScript, HTML, CSS, GIT, Magento and Laravel."
+          }
+        ]
+      },
+      "employments": {
+        "label": "Employment",
+        "data": [
+          {
+            "label": "Ambab Infotech Pvt. Ltd.",
+            "description": "I worked as full stack developer (mostly on Magento) at Ambab for more than 2 years since June 2019."
+          },
+          {
+            "label": "Forbes Advisor",
+            "description": "I joined Forbes on 1st of December 2021 and have been working as a full stack developer (mostly backend)."
+          }
+        ]
+      }
+    },
+    "projects": [
+      {
+        "title": "Alfa [Harvey Nichols] (Ecommerce website and mobile application)",
+        "site": ["https://www.harveynichols.com/"],
+        "app": [
+          "https://play.google.com/store/apps/details?id=com.harveynichols&hl=en_IN&gl=US"
+        ],
+        "summary": [
+          "Worked Full stack developer, mostly focused on developing backend and but frontend too sometimes. The project was already in its mid stage of development when I joined this team.",
+          "Aside from working on code with PHP and JavaScript, we also had to do database related modifications and optimizations."
+        ],
+        "highlights": [
+          "Created APIs for mobile application.",
+          "Create custom token system for mobile APIs.",
+          "Interact with clients for product requirements.",
+          "Integration of RMA and OMS.",
+          "Add custom product types and attributes.",
+          "Helped in creating store wise themes for multilingual experience.",
+          "Implement Algolia integration."
+        ],
+        "technologies": [
+          "Magento 2.3.5",
+          "Algolia",
+          "Git",
+          "Docker",
+          "composer",
+          "Jenkins",
+          "NGINX",
+          "Varnish",
+          "PHP7.27.3",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Prisma (Ecommerce website)",
+        "site": ["https://myprisma.in/"],
+        "app": [],
+        "summary": [
+          "I was sole backend developer on this project and communicated with client for his requirements. Team also had a quality analyst and frontend developer.",
+          "The client already had a website. I was required to upgrade site, theme and implement other changes.",
+          "I was also responsible setup for project."
+        ],
+        "highlights": [
+          "Contributed in integrating third party theme",
+          "Upgrade Magento version.",
+          "Interact with clients for product requirements.",
+          "Worked on modifying the theme based on client requests.",
+          "Created custom gallery magnifier.",
+          "Integrate logistics and RMA.",
+          "Updated Payment Gateway Integration."
+        ],
+        "technologies": [
+          "Magento 2.2.6",
+          "Git",
+          "Docker",
+          "composer",
+          "Jenkins",
+          "NGINX",
+          "Varnish",
+          "PHP7.1",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Metro (Ecommerce website)",
+        "site": ["https://www.metroshoes.com/"],
+        "app": [],
+        "summary": [
+          "I was in this project for short time because fill in the responsibility temporarily. It was a maintenance project."
+        ],
+        "highlights": [
+          "Created category attributes for SEO.",
+          "Created a custom module to view top selling products for each category."
+        ],
+        "technologies": [
+          "Magento 2.4",
+          "Git",
+          "Docker",
+          "composer",
+          "Jenkins",
+          "NGINX",
+          "Varnish",
+          "PHP7.4",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Hoshan (Ecommerce website)",
+        "site": [],
+        "app": [],
+        "summary": [
+          "This was my first B2B commerce website and had to make various customization for product and services they provided. I was backend developer here too and responsible for setup. Later project requirements grew, and another developer joined in."
+        ],
+        "highlights": [
+          "Implemented Service extension where the user can raise service requests and view its status from 'my account'.",
+          "Interact with clients for product requirements.",
+          "Implement service request management for store admin.",
+          "Created attributes for client's product and attribute sets for the same.",
+          "Integrate google maps.",
+          "Used Magento's content security to allow known third-party APIs."
+        ],
+        "technologies": [
+          "Magento 2.4",
+          "Git",
+          "Docker",
+          "composer",
+          "Jenkins",
+          "NGINX",
+          "Varnish",
+          "PHP7.4",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "360 Inex (Light weight ecommerce website)",
+        "site": ["https://360inex.com/"],
+        "app": [],
+        "summary": [
+          "Probably shortest project I ever worked on. Website was delivered within 6 weeks (4 weeks of actual development) with three backend developers working on it."
+        ],
+        "highlights": [
+          "Implement Payment Gateway.",
+          "Customized and simplified product listing page.",
+          "Implementing one click checkout.",
+          "Custom Cookies.",
+          "Implement Algolia integration."
+        ],
+        "technologies": [
+          "Magento 2.3.3",
+          "Algolia",
+          "Git",
+          "Docker",
+          "composer",
+          "Jenkins",
+          "NGINX",
+          "Varnish",
+          "PHP7.2",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Forbes Advisor",
+        "site": [
+          "https://www.forbes.com/advisor/",
+          "https://www.forbes.com/uk/advisor/",
+          "https://www.forbes.com/advisor/de/",
+          "https://www.forbes.com/advisor/in/",
+          "https://www.forbes.com/health/",
+          "https://www.forbes.com/wheels/",
+          "https://www.forbes.com/home-improvement/"
+        ],
+        "app": [],
+        "summary": [
+          "Here team is big, with 26+ people (6+ backend developers) in it. Here we are collectively working on multiple websites, fulfilling software requirements for other teams."
+        ],
+        "highlights": [
+          "Working on multiple independent sites.",
+          "Integrate third party widgets.",
+          "Create custom post types and pages.",
+          "Create custom widgets and shortcodes.",
+          "Automated/bulk update posts.",
+          "Update and implement SEO related changes.",
+          "Create or update APIs for widget, or for web components.",
+          "Create crons and background processes for long or recurring jobs.",
+          "Debug and fix bugs.",
+          "Optimizations.",
+          "Upgrade and make projects php8 compatible."
+        ],
+        "technologies": [
+          "WordPress",
+          "Laravel",
+          "Vue.js",
+          "Git",
+          "Node.js",
+          "composer",
+          "PHP7.4",
+          "PHP8.1",
+          "MySQL"
+        ]
+      }
+    ]
+  }
+}
