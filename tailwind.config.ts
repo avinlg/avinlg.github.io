@@ -1,5 +1,11 @@
 import type { Config } from "tailwindcss";
 
+const safelist = [
+  ...[2, 3, 4].map((n) => `grid-cols-${n}`),
+  'auto-cols-max',
+  'grid-cols-none',
+];
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -13,8 +19,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      maxWidth: {
+        "a4": "216mm"
+      }
     },
   },
   plugins: [],
+  safelist,
 };
 export default config;

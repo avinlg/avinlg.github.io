@@ -1,8 +1,9 @@
 {
   "data": {
     "title": "Avinash Gowda",
+    "profile_image": "https://avatars.githubusercontent.com/u/60734011?v=4",
     "updatedOn": "6th June 2023",
-    "designation": "Software Engineer",
+    "designation": "Senior Software Engineer",
     "summary": [
       "Full stack software engineer with more than 4 years of experience in building web applications, APIs, etc.",
       "Worked on more than 5+ projects to completion.",
@@ -22,11 +23,76 @@
       }
     },
     "competencies": {
-      "softwareDevelopment": {
-        "label": "Software Development",
+      "skills": {
+        "label": "Skills",
+        "data": {
+          "technical_proficiency": {
+            "label": "Technical Proficiency",
+            "data": 9
+          },
+          "architectural_design": {
+            "label": "Architectural Design",
+            "data": 8
+          },
+          "sdlc_expertise": {
+            "label": "SDLC Expertise",
+            "data": 8
+          },
+          "domain_knowledge": {
+            "label": "Domain Knowledge",
+            "data": 8.9
+          },
+          "leadership_and_mentorship": {
+            "label": "Leadership and Mentorship",
+            "data": 8.5
+          },
+          "problem_solving_and_critical_thinking": {
+            "label": "Problem Solving and Critical Thinking",
+            "data": 9.5
+          },
+          "project_management_and_time_management": {
+            "label": "Project and Time Management",
+            "data": 7
+          },
+          "collaboration_and_communication": {
+            "label": "Collaboration and Communication",
+            "data": 9.5
+          },
+          "code_review_and_quality_assurance": {
+            "label": "Code Review and Quality Assurance",
+            "data": 8.5
+          },
+          "performance_optimization_and_debugging": {
+            "label": "Optimization and Debugging",
+            "data": 9.5
+          },
+          "understanding_business_goals_and_prioritization": {
+            "label": "Understanding Goals and Prioritization",
+            "data": 9
+          },
+          "adaptability": {
+            "label": "Adaptability",
+            "data": 10
+          },
+          "philomath": {
+            "label": "Philomath",
+            "data": 10
+          },
+          "agile_methodologies": {
+            "label": "Agile Methodologies",
+            "data": 8.5
+          },
+          "soft_skills": {
+            "label": "Soft Skills",
+            "data": 7.5
+          }
+        }
+      },
+      "tech_skills": {
+        "label": "Tech Skills",
         "data": {
           "languages": {
-            "label": "Languages",
+            "label": "Programming Languages",
             "data": [
               "JAVA",
               "C",
@@ -57,40 +123,30 @@
           "tools": {
             "label": "Tools",
             "data": ["Postman", "Nginx", "Varnish", "Eclipse", "WSL"]
-          }
-        }
-      },
-      "database": {
-        "label": "Database",
-        "data": {
-          "languages": {
-            "label": "Languages",
+          },
+          "db_tools": {
+            "label": "Database Tools",
+            "data": ["MySQL", "Oracle"]
+          },
+          "db_languages": {
+            "label": "Database Languages",
             "data": ["SQL"]
           },
-          "tools": {
-            "label": "Tools",
-            "data": ["MySQL", "Oracle"]
-          }
-        }
-      },
-      "concepts": {
-        "label": "Concepts",
-        "data": [
-          "RDBMS",
-          "MVC",
-          "MVVM",
-          "REST",
-          "SOAP",
-          "GraphQL",
-          "Microservices"
-        ]
-      },
-      "tools": {
-        "label": "Other Tools",
-        "data": {
           "versioning": {
             "label": "Version Control",
             "data": ["Git"]
+          },
+          "concepts": {
+            "label": "Concepts",
+            "data": [
+              "RDBMS",
+              "MVC",
+              "MVVM",
+              "REST",
+              "SOAP",
+              "GraphQL",
+              "Microservices"
+            ]
           },
           "os": {
             "label": "Operating Systems",

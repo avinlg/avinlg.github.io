@@ -1,22 +1,18 @@
-import Image from "next/image";
-import data from "./api/data.json"
+import resume from "./data/resume.json"
+import Header from "./components/resume/header"
+import Contacts from "./components/resume/contacts"
+import ProfileDetails from "./components/resume/profile_details"
+import Skills from "./components/resume/skills"
+import TechSkills from "./components/resume/tech_skills"
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-between">
-      <div className="flex left-0 bg-gray-800 min-w-1/3 w-1/3">
-        <Image
-          src='/images/software-developer.svg'
-          alt='profile image'
-          className="dark:invert-0"
-          width={100}
-          height={24}
-          priority
-        />
-      </div>
-      <div className="flex right-0 bg-gray-800 min-w-2/3 w-2/3">
-        <span>Contacts</span>
-      </div>
+    <main className="max-w-a4 flex flex-col min-h-screen items-center print:m-0 mx-auto">
+      <Header {...resume.data} />
+      <Contacts {...resume.data.personaDetails.contact} />
+      <ProfileDetails className="hidden" {...resume.data.personaDetails} />
+      <Skills {...resume.data.competencies.skills}/>
+      <TechSkills {...resume.data.competencies.tech_skills}/>
     </main>
   );
 }
