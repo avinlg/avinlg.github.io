@@ -2,6 +2,7 @@ import type { Config } from "tailwindcss";
 
 const safelist = [
   ...[2, 3, 4].map((n) => `grid-cols-${n}`),
+  ...[1, 2, 3, 4].map((n) => `gap-${n}`),
   'auto-cols-max',
   'grid-cols-none',
 ];

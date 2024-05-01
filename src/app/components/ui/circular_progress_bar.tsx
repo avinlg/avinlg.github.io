@@ -1,11 +1,26 @@
-import React, {ReactNode} from 'react' 
-const CircularProgressBar: React.FC<{ className?: string, children: ReactNode, progress: number }> = ({ className, children, progress }) => {
+import React, {ReactNode} from 'react'
+
+interface ProgressProps {
+  className?: string,
+  children: ReactNode,
+  progress: number,
+  scaleColorClass?: string,
+  progressColorClass?: string,
+}
+
+const CircularProgressBar: React.FC<ProgressProps> = ({
+  className,
+  children,
+  progress,
+  scaleColorClass = 'text-gray-200',
+  progressColorClass = 'text-gray-800'
+}) => {
   return (
     <div className={`relative w-40 h-40 ${className}`}>
       <svg className="w-full h-full" viewBox="0 0 100 100">
         {/* Background circle */}
         <circle
-          className="text-gray-200 stroke-current"
+          className={`${scaleColorClass} stroke-current`}
           strokeWidth="10"
           cx="50"
           cy="50"
@@ -14,7 +29,7 @@ const CircularProgressBar: React.FC<{ className?: string, children: ReactNode, p
         ></circle>
         {/* Progress circle */}
         <circle
-          className="text-gray-800  progress-ring__circle stroke-current"
+          className={`${progressColorClass} progress-ring__circle stroke-current`}
           strokeWidth="10"
           strokeLinecap="round"
           cx="50"
@@ -29,7 +44,6 @@ const CircularProgressBar: React.FC<{ className?: string, children: ReactNode, p
         <foreignObject  x="0" y="0" className='w-full h-full'>
           {children}
         </foreignObject >
-
       </svg>
     </div>
   );

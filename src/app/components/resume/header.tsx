@@ -1,13 +1,13 @@
 import Image from "next/image";
 
 function SummaryItem(props: {text: string, className?: string}) {
-  return <dd className={props.className}>{props.text}</dd>;
+  return <dd className={`before:content-['-'] before:pr-2 ${props.className}`}>{props.text}</dd>;
 }
 
 export default function Header(props: any) {
   return (
     <section className="flex flex-col items-stretch w-full justify-between text-center sm:text-left">
-      <div className="flex w-full bg-gray-800 dark:bg-white p-4 text-white dark:text-gray-800">
+      <div className="flex w-full bg-gray-500 dark:bg-white px-4 py-2 text-white dark:text-gray-800">
         <Image
           src={props.profile_image}
           alt="profile image"
@@ -20,9 +20,12 @@ export default function Header(props: any) {
         <div className="flex pl-4">
           <dl>
             <dt className="text-xs font-bold uppercase after:content-[':']">Summary </dt>
-            {props.summary.map((val: string, i: string) => (
-              <SummaryItem key={i} text={val} className="" />
-            ))}
+            <div className="bg-gray-800 pl-2 pr-4 mb-2 mt-1 py-2 rounded leading-tight">
+              {props.summary.map((val: string, i: string) => (
+                <SummaryItem key={i} text={val} />
+              ))}
+            </div>
+            
           </dl>
         </div>
       </div>

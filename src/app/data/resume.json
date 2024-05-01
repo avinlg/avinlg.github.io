@@ -160,75 +160,92 @@
       },
       "communications": {
         "label": "Communications",
-        "data": "Excellent written and verbal communication skills."
-      },
-      "languages": {
-        "label": "Spoken Languages",
-        "data": "English, Hindi, Marathi"
+        "data": {
+          "communications_ability": {
+            "label": "Communications Ability",
+            "data": "Excellent written and verbal communication skills."
+          },
+          "languages": {
+            "label": "Spoken Languages",
+            "data": "English, Hindi, Marathi"
+          }
+        }
       }
     },
     "qualifications": {
-      "academics": {
-        "marksheets": {
-          "bachelors": {
-            "title": "BE-Information technology",
-            "score": "5.97 CGPI",
-            "board": "Mumbai University",
-            "passingYear": "May 2017"
-          },
-          "hsc": {
-            "title": "HSC",
-            "score": "79.83%",
-            "board": "Maharashtra Board",
-            "passingYear": "March 2012"
-          },
-          "ssc": {
-            "title": "SSC",
-            "score": "83.09%",
-            "board": "Maharashtra Board",
-            "passingYear": "March 2010"
+      "label": "Qualifications",
+      "data": {
+        "academics": {
+          "label": "Academics",
+          "data": {
+            "marksheets": {
+              "bachelors": {
+                "title": "Bachelors in Engineering",
+                "subTitle": "Information technology",
+                "score": "5.97 CGPI",
+                "pct": "65",
+                "board": "Mumbai University",
+                "passingYear": "May 2017"
+              },
+              "hsc": {
+                "title": "Higher Secondary Certificate",
+                "subTitle": "Science | 12th grade",
+                "score": "79.83%",
+                "pct": "79.83",
+                "board": "Maharashtra Board",
+                "passingYear": "March 2012"
+              },
+              "ssc": {
+                "title": "Secondary School Certificate",
+                "subTitle": "10th grade",
+                "score": "83.09%",
+                "pct": "83.09",
+                "board": "Maharashtra Board",
+                "passingYear": "March 2010"
+              }
+            },
+            "major_minor": [
+              {
+                "label": "Major",
+                "data": "Programming using languages such as C, C++ and C #, Java, Python and PHP for developing software/application/backend services."
+              },
+              {
+                "label": "Minor",
+                "data": "IoT, Database management, Cloud Computing, Automation."
+              }
+            ]
           }
         },
-        "major_minor": [
-          {
-            "label": "Major",
-            "data": "Programming using languages such as C, C++ and C #, Java, Python and PHP for developing software/application/backend services."
-          },
-          {
-            "label": "Minor",
-            "data": "IoT, Database management, Cloud Computing, Automation."
-          }
-        ]
-      },
-      "postAcademics": {
-        "label": "Internship / Training",
-        "data": [
-          {
-            "title": "Internship at DIT And STC POWAI, Union bank of India",
-            "description": "Internship was for 3 months. We created mobile application and backend service at DIT And STC POWAI, Union Bank of India."
-          },
-          {
-            "title": "Training Certification Prognoz Technical Competency Program: .NET Technology (C#)",
-            "description": "Course duration was 2 months. Passing required creating and submitting a Windows desktop Software as mini project."
-          },
-          {
-            "title": "Full stack web development at Ambab Infotech Pvt Ltd. as software trainee.",
-            "description": "Two months training included learning and assignments of object-oriented PHP (PHP OOP), JavaScript, HTML, CSS, GIT, Magento and Laravel."
-          }
-        ]
-      },
-      "employments": {
-        "label": "Employment",
-        "data": [
-          {
-            "label": "Ambab Infotech Pvt. Ltd.",
-            "description": "I worked as full stack developer (mostly on Magento) at Ambab for more than 2 years since June 2019."
-          },
-          {
-            "label": "Forbes Advisor",
-            "description": "I joined Forbes on 1st of December 2021 and have been working as a full stack developer (mostly backend)."
-          }
-        ]
+        "postAcademics": {
+          "label": "Internship / Training",
+          "data": [
+            {
+              "title": "Internship at DIT And STC POWAI, Union bank of India",
+              "description": "Internship was for 3 months. We created mobile application and backend service at DIT And STC POWAI, Union Bank of India."
+            },
+            {
+              "title": "Training Certification Prognoz Technical Competency Program: .NET Technology (C#)",
+              "description": "Course duration was 2 months. Passing required creating and submitting a Windows desktop Software as mini project."
+            },
+            {
+              "title": "Full stack web development at Ambab Infotech Pvt Ltd. as software trainee.",
+              "description": "Two months training included learning and assignments of object-oriented PHP (PHP OOP), JavaScript, HTML, CSS, GIT, Magento and Laravel."
+            }
+          ]
+        },
+        "employments": {
+          "label": "Employment",
+          "data": [
+            {
+              "label": "Ambab Infotech Pvt. Ltd.",
+              "description": "I worked as full stack developer (mostly on Magento) at Ambab for more than 2 years since June 2019."
+            },
+            {
+              "label": "Forbes Advisor",
+              "description": "I joined Forbes on 1st of December 2021 and have been working as a full stack developer (mostly backend)."
+            }
+          ]
+        }
       }
     },
     "projects": [

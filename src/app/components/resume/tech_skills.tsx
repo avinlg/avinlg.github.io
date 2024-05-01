@@ -11,7 +11,7 @@ const TextGrid = (props: any) => {
   return (
     <AutoGrid cols={'auto'} className={`px-4 py-1 rounded max-w-max grow ${altBg}`}>
       {data.map((el) => (
-        <div key={`${el}`} className={`rounded-full max-w-max px-1 ${className}`}><span>{`${el}`}</span></div>
+        <div key={`${el}`} className={`rounded-full font-semibold max-w-max px-1 ${className}`}><span>{`${el}`}</span></div>
       ))}
     </AutoGrid>
   );
@@ -19,8 +19,8 @@ const TextGrid = (props: any) => {
 
 const Skill = (props: any) => {
   return (
-    <dl className={`p-1 flex grow rounded font-bold text-xs ${props.background}`}>
-      <dt className="grow-0 max-w-max px-2 self-center">{props.label}</dt>
+    <dl className={`p-1 flex grow rounded text-xs ${props.background}`}>
+      <dt className="grow-0 max-w-max px-2 font-bold self-center">{props.label}</dt>
       {getSkills(props.data, props.background)}
     </dl>
   );

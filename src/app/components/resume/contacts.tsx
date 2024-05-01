@@ -10,25 +10,29 @@ export default function Contacts(props: any) {
           </dt>
           <dd className="flex w-full justify-between">
             <dl className="flex min-w-max hover:fill-inherit">
-              <dt className="flex self-center">
-                <span className="hidden">Mobile</span>
-                <DynamicHeroIcon
-                  icon={"PhoneIcon"}
-                  classes="flex-shrink-0 w-5 h-5 text-gray-800"
-                />
-              </dt>
-              <dd className="pl-2">{props.mobile}</dd>
+              <a href={`tel:${props.mobile}`} className="flex">
+                <dt className="flex self-center">
+                  <span className="hidden">Mobile</span>
+                  <DynamicHeroIcon
+                    icon={"PhoneIcon"}
+                    classes="flex-shrink-0 w-5 h-5 text-gray-800"
+                  />
+                </dt>
+                <dd className="pl-2">{props.mobile}</dd>
+              </a>
             </dl>
             <div className="border-r-2 border-gray-800"></div>
             <dl className="flex min-w-max">
-              <dt className="flex self-center">
-                <span className="hidden">Email</span>
-                <DynamicHeroIcon
-                  icon={"EnvelopeIcon"}
-                  classes="flex-shrink-0 w-5 h-5 text-gray-800"
-                />
-              </dt>
-              <dd className="pl-2">{props.email}</dd>
+              <a href={`mailto:${props.email}`} className="flex">
+                <dt className="flex self-center">
+                  <span className="hidden">Email</span>
+                  <DynamicHeroIcon
+                    icon={"EnvelopeIcon"}
+                    classes="flex-shrink-0 w-5 h-5 text-gray-800"
+                  />
+                </dt>
+                <dd className="pl-2">{props.email}</dd>
+              </a>
             </dl>
             <div className="border-r-2 border-gray-800"></div>
             <dl className="flex min-w-max">
