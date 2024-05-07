@@ -9,7 +9,7 @@ import Qualifications from "./components/resume/qualifications"
 
 export default function Home() {
   return (
-    <main className="max-w-a4 flex flex-col min-h-screen items-center print:m-0 mx-auto">
+    <main className="max-w-a4 bg-white flex flex-col min-h-screen items-center print:m-0 mx-auto">
       <Header {...resume.data} />
       <Contacts {...resume.data.personaDetails.contact} />
       <ProfileDetails className="hidden" {...resume.data.personaDetails} />
