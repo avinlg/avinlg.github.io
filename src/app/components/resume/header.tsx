@@ -7,7 +7,7 @@ function SummaryItem(props: {text: string, className?: string}) {
 export default function Header(props: any) {
   return (
     <section className="flex flex-col items-stretch w-full justify-between text-center sm:text-left">
-      <div className="flex w-full bg-gray-500 dark:bg-white px-4 py-2 text-white dark:text-gray-800">
+      <div className="flex w-full bg-white dark:bg-white px-4 py-2 dark:text-gray-800">
         <Image
           src={props.profile_image}
           alt="profile image"
@@ -17,12 +17,12 @@ export default function Header(props: any) {
           priority={true}
           style={{ objectFit: "contain", aspectRatio: 1 }}
         />
-        <div className="flex pl-4">
+        <div className="flex pl-4 text-xs font-bold">
           <dl>
-            <dt className="text-xs font-bold uppercase after:content-[':']">Summary </dt>
-            <div className="bg-gray-800 pl-2 pr-4 mb-2 mt-1 py-2 rounded leading-tight">
+            <dt className="uppercase after:content-[':']">Summary </dt>
+            <div className="bg-gray-200 pl-2 pr-4 mb-2 mt-1 py-2 rounded leading-tight">
               {props.summary.map((val: string, i: string) => (
-                <SummaryItem key={i} text={val} />
+                <SummaryItem key={i} text={val} className="italic" />
               ))}
             </div>
             
